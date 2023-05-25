@@ -274,3 +274,134 @@
     font-weight: 300;
     font-size: 14px;
 }
+.snikers_section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.sniker1 {
+    width: 65%;
+    height: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.sniker2 {
+    width: 33%;
+    height: 380px;
+    position: relative;
+}
+.overlay5 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.sniker2:hover .overlay5 {
+    opacity: 0.5;
+}
+.sniker2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.sn_2 {
+    width: 30%;
+    height: 180px;
+    position: relative;
+}
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.sn_2:hover .overlay2 {
+    opacity: 0.5;
+}
+.sn_2 img {
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+.sn_1 {
+    width: 65%;
+    height: 180px;
+    position: relative;
+}
+.overlay1 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.sn_1:hover .overlay1 {
+    opacity: 0.5;
+}
+.sn_1 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.sn_3 {
+    width: 30%;
+    height: 180px;
+    position: relative;
+}
+.overlay3 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.sn_3:hover .overlay3 {
+    opacity: 0.5;
+}
+.sn_3 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.sn_4 {
+    width: 65%;
+    height: 180px;
+    position: relative;
+}
+.overlay4 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.sn_4:hover .overlay4 {
+    opacity: 0.5;
+}
+.sn_4 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}

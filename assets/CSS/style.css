@@ -382,7 +382,6 @@
     transform: translateX(-50%);
     opacity: 0;
     transition: 0.4s;
-
 }
 .sn_1:hover .hover_text {
     opacity: 1;
@@ -495,4 +494,214 @@
 }
 .container4 {
     margin-top: 80px;
+}
+.heading h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.heading {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.heading p {
+    color: grey;
+    font-size: 14px;
+}
+.products_section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+.price {
+    display: flex;
+    padding-top: 10px;
+    gap: 15px;
+}
+.price p:last-of-type {
+    text-decoration: line-through;
+    color: grey;
+    font-size: 14px;
+    font-weight: 500;
+}
+.product_text {
+    width: 230px;
+    padding: 15px 0;
+}
+.product_text p:first-of-type {
+    font-size: 15px;
+    font-weight: 500;
+}
+.product_img {
+    width: 250px;
+}
+.product_img img {
+    width: 100%;
+}
+.price p:first-of-type {
+    font-size: 14px;
+}
+.product_icons {
+    padding-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+.product_icons i{
+    transition: 0.4s;
+}
+.product_icons i {
+    padding: 8px 8px;
+    border-radius: 50%;
+    background-color:#828BB2;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.product_icons i:hover {
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+}
+.container5 {
+    margin-top: 90px;
+}
+.exclusive_section {
+    width: 100%;
+    display: flex;
+}
+.deal {
+    width: 50%;
+    background-image:url('../images/exclusive.jpg.webp');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.deal_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+.adidas {
+    width: 50%;
+    background-color: #F9F9FF;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+.deal_time{
+    width: 80%;
+    height: 90px;
+    background-color: white;
+    border-radius: 8px;
+    z-index: 2;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.deal h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.deal p {
+    color: white;
+    font-size: 15px;
+}
+.time_menu ul li p{
+    color: black;
+}
+.time_menu ul {
+    display: flex;  
+    gap: 90px; 
+    text-align: center;
+}
+.time_menu {
+    margin: 0 auto;
+}
+.time_menu ul li p:first-of-type {
+    font-size: 30px;
+    font-weight: 500;
+}
+.time_menu ul li {
+    position: relative;
+}
+.time_menu ul li:not(.time_menu ul li:last-of-type)::after  {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 60px;
+    background-color: rgb(231, 216, 216);
+    transform: translateX(50px);
+}
+.deal_show {
+    padding: 15px 25px;
+    border-radius: 20px;
+    display: inline-block;
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.adidas img {
+    width: 310px;
+}
+.adidas_price {
+    display: flex;
+    gap: 20px;
+}
+.adidas_price p:first-of-type {
+    font-size: 14px;
+}
+.adidas_price p:last-of-type {
+    font-size: 14px;
+    text-decoration: line-through;
+    font-weight: 500;
+    color: rgb(180, 178, 178);
+}
+.adidas_h {
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+}
+.adidas_h h2 {
+    font-weight: 500;
+}
+.adidas_bag {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.adidas_bag i {
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    padding: 12px 13px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+.adidas_bag p {
+    font-size: 13px;
+    font-weight: 400;
 }

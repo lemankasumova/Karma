@@ -507,6 +507,7 @@
 .heading p {
     color: grey;
     font-size: 14px;
+    padding-top: 10px;
 }
 .products_section {
     width: 90%;
@@ -598,8 +599,8 @@
 .adidas {
     width: 50%;
     background-color: #F9F9FF;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -704,4 +705,20 @@
 .adidas_bag p {
     font-size: 13px;
     font-weight: 400;
+}
+.logo_section {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.logo_section img {
+    cursor: pointer;
+    opacity: 0.3;
+    transition: 0.4s;
+}
+.logo_section img:hover {
+    opacity: 1;
 }

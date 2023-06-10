@@ -812,6 +812,9 @@ input {
     outline: 0;
     margin-top: 15px;
 }
+input:focus::placeholder {
+    color: transparent;
+  }
 ::placeholder {
     font-weight: 300;
     color: rgb(209, 204, 204);

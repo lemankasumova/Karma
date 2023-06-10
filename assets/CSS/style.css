@@ -722,3 +722,147 @@
 .logo_section img:hover {
     opacity: 1;
 }
+.heels_section {
+    width: 85%;
+    margin: 0 auto; 
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.heel_section1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.heel1 {
+    width: 22%;
+    display: flex;
+    gap: 20px;
+}
+.heels_text h4 {
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.heels_text h4:hover{
+    color: #ffba00;
+}
+.heels_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text2 {
+    display: flex;
+    gap: 20px;
+    padding-top: 8px;
+}
+.text2 p:first-of-type {
+    font-size: 15px;
+    font-weight: 500;
+}
+.text2 p:last-of-type {
+    font-size: 15px;
+    color: rgb(199, 196, 196);
+    text-decoration: line-through;
+    font-weight: 500;
+}
+.last_heel {
+    width: 22%;
+}
+.last_heel img {
+    width: 100%;
+}
+.last_section {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 80px;
+    padding-top: 80px;
+    justify-content: space-between;
+}
+.container8 {
+    background-color: #222222;
+    padding-bottom: 80px;
+}
+.last1 {
+    width: 25%;
+}
+.last1 h3 {
+    color: white;
+}
+.last1 p {
+    color: rgb(102, 100, 100);
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 22px;
+}
+.last2 h3 {
+    color: white;
+}
+.last2 p {
+    color: rgb(102, 100, 100);
+    font-size: 14px;
+    padding-top: 20px;
+}
+input {
+    padding: 10px 150px 10px 10px;
+    border: 0;
+    outline: 0;
+    margin-top: 15px;
+}
+::placeholder {
+    font-weight: 300;
+    color: rgb(209, 204, 204);
+    font-size: 15px;
+    padding-left: 10px;
+}
+form {
+    position: relative;
+}
+.icon1 {
+    padding: 10px 12px 10px 12px;
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+.last3 h3 {
+    color: white;
+}
+.footer_images1 {
+    margin-top: 25px;
+}
+.last4 h3 {
+    color: white;
+}
+.last4 p {
+    color: rgb(102, 100, 100);
+    font-size: 14px;
+    padding-top: 20px;  
+}
+.footer_icons {
+    display: flex;
+    gap: 22px;
+    margin-top: 15px;
+}
+.footer_icons i {
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.footer_icons i:hover {
+    color: #ffba00;
+}
+.end p {
+    text-align: center;
+    color: rgb(102, 100, 100);
+    font-size: 15px;
+}
+.end{
+    padding-top: 70px;
+}
